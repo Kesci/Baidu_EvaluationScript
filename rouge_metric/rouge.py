@@ -70,8 +70,8 @@ class Rouge():
             # split into tokens
             token_r = reference.split(" ")
             # compute the longest common subsequence
-            lcs = my_lcs(token_r, token_c)
-            # lcs = go_lcs(token_r, token_c)
+            # lcs = my_lcs(token_r, token_c)
+            lcs = go_lcs(token_r, token_c)
             prec.append(lcs/float(len(token_c)))
             rec.append(lcs/float(len(token_r)))
 
