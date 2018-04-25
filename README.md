@@ -28,7 +28,7 @@
 * 完成仓库的clone之后，请在Code Cell内执行下面的命令，完成validation。
     ```
     %%bash
-    cd /home/Kesci/work/Baidu_EvaluationScript/
+    cd /home/kesci/work/Baidu_EvaluationScript/
     python3 1st_evaluation.py /path/to/submit/file /path/to/validation/file
     ```
 * 你将会看到如下结果，其中的value便是对应算法评测的分数
